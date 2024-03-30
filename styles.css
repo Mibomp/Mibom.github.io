@@ -1,0 +1,18 @@
+.centered-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.resizable-image {
+    max-width: 100%;
+    height: auto;
+}
+.qualification {
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+}
+
+.year, .details {
+    flex-basis: 65%; /* Set a flex basis to control the width */
+}
+
